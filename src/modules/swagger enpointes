@@ -1,0 +1,18 @@
+//headers 
+  @ApiHeader({
+    name: 'you name',
+    description: 'you description',
+  })
+//dtolar uchun
+  @ApiProperty()
+
+//urllar uchun description
+  @ApiOperation({ summary: 'you summary' })
+
+// bodyni form data qilish 
+  @ApiConsumes('multipart/form-data')
+// params uchun 
+  @ApiParam({
+    name: 'you name',
+    description: 'you summary',
+  })
